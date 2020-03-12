@@ -21,7 +21,8 @@ git並不在乎檔案名稱，僅在乎檔案內容**
 # 1st commit
 
 * 指令：mkdir project
- 建立了project目錄
+  
+建立了project目錄
 
 * 指令：touch index.html
 - 新增了index.html檔案(此時在working directory)
