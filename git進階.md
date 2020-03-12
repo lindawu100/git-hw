@@ -54,8 +54,11 @@ git並不在乎檔案名稱，僅在乎檔案內容**
 ![](https://i.imgur.com/Z6KVsF2.png)
 
 1.HEAD與Master往前一次移動
+
 2.第二次的commit會指向前一次
+
 3.root tree會指向config目錄(因為在git認為第二次的目錄內容並無差異)
+
 
 
 # 3rd commit
