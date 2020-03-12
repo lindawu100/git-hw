@@ -22,22 +22,27 @@ git並不在乎檔案名稱，僅在乎檔案內容**
 
 * 指令：mkdir project
   
-建立了project目錄
+  建立了project目錄
 
 * 指令：touch index.html
-- 新增了index.html檔案(此時在working directory)
+
+  新增了index.html檔案(此時在working directory)
 
 * 指令：git add index.html
-- 此時在git裡長出了blob(把index.html加至staging area)
+
+  此時在git裡長出了blob(把index.html加至staging area)
 
 * 指令：mkdir config
-- 建立了config資料夾(project目錄內)
+
+  建立了config資料夾(project目錄內)
 
 * 指令：touch config/database.yml
-- 在config目錄裡,新增了database.yml檔案(此時在working directory)
+
+  在config目錄裡,新增了database.yml檔案(此時在working directory)
 
 * 指令：git add config/database.yml
-- 在config目錄裡長出了blob(把database.yml加至staging area)
+
+  在config目錄裡長出了blob(把database.yml加至staging area)
 
 * 指令：git commit -m "1st-commit"
 ![](https://i.imgur.com/qtrbCNe.png)
